@@ -1,0 +1,11 @@
+digraph G {
+e [color = red, peripheries=2, style = filled, label="key=e, +"]
+a [color = red, peripheries=2, style = filled, label="key=a, a"]
+e -> a
+d [color = red, peripheries=2, style = filled, label="key=d, *"]
+b [color = red, peripheries=2, style = filled, label="key=b, b"]
+d -> b
+c [color = red, peripheries=2, style = filled, label="key=c, c"]
+d -> c
+e -> d
+}
